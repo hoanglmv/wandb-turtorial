@@ -17,3 +17,22 @@ config: {}
 2024-10-15 16:40:48,178 INFO    MainThread:14076 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
 2024-10-15 16:40:48,179 INFO    MainThread:14076 [wandb_run.py:_restore():2410] restore
 2024-10-15 16:40:48,179 INFO    MainThread:14076 [wandb_run.py:_restore():2416] restore done
+2024-10-15 16:40:51,307 INFO    MainThread:14076 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-15 16:40:51,307 INFO    MainThread:14076 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-15 16:40:51,317 INFO    MainThread:14076 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-15 16:40:51,436 INFO    MainThread:14076 [wandb_init.py:init():667] starting backend
+2024-10-15 16:40:51,436 INFO    MainThread:14076 [wandb_init.py:init():671] sending inform_init request
+2024-10-15 16:40:51,442 INFO    MainThread:14076 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-15 16:40:51,442 INFO    MainThread:14076 [wandb_init.py:init():684] backend started and connected
+2024-10-15 16:40:51,458 INFO    MainThread:14076 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-15 16:40:51,487 INFO    MainThread:14076 [wandb_run.py:_label_probe_notebook():1356] Unable to probe notebook: 'charmap' codec can't decode byte 0x81 in position 1371: character maps to <undefined>
+2024-10-15 16:40:51,488 INFO    MainThread:14076 [wandb_init.py:init():779] updated telemetry
+2024-10-15 16:40:51,494 INFO    MainThread:14076 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-15 16:40:52,029 INFO    MainThread:14076 [wandb_init.py:init():863] starting run threads in backend
+2024-10-15 16:40:52,538 INFO    MainThread:14076 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-15 16:40:52,538 INFO    MainThread:14076 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-15 16:40:52,539 INFO    MainThread:14076 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-15 16:40:52,539 INFO    MainThread:14076 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-15 16:40:52,540 INFO    MainThread:14076 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-15 16:41:05,809 INFO    MainThread:14076 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-15 16:41:05,809 INFO    MainThread:14076 [wandb_init.py:_pause_backend():443] pausing backend

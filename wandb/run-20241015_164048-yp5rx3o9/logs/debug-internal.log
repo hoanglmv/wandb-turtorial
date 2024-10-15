@@ -8,3 +8,9 @@
 {"time":"2024-10-15T16:40:51.459756+07:00","level":"INFO","msg":"sender: started","stream_id":{"value":"yp5rx3o9"}}
 {"time":"2024-10-15T16:40:52.0362144+07:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
 {"time":"2024-10-15T16:40:52.037244+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-15T16:41:05.81102+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-15T16:48:38.8114355+07:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/fire-kidboy1505-vietnam-national-university-hanoi/mnist-example2/yp5rx3o9/file_stream"}
+{"time":"2024-10-15T16:48:38.8114355+07:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/fire-kidboy1505-vietnam-national-university-hanoi/mnist-example2/yp5rx3o9/file_stream: {\"error\":\"project fire-kidboy1505-vietnam-national-university-hanoi/mnist-example2 not found while streaming file\"}"}
+{"time":"2024-10-15T16:50:22.8712743+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-10-15T18:09:53.9071272+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.27:54337->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2024-10-15T20:10:13.5266095+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.27:53654->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
