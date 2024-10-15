@@ -1,0 +1,30 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "3.9.13",
+  "startedAt": "2024-10-15T09:26:41.848881Z",
+  "program": "d:\\lmvh\\wandb-turtorial\\wandb_test.ipynb",
+  "git": {
+    "remote": "https://github.com/hoanglmv/wandb-turtorial.git"
+  },
+  "email": "fire.kidboy1505@gmail.com",
+  "root": "d:\\lmvh\\wandb-turtorial",
+  "host": "Hoang",
+  "username": "firek",
+  "executable": "c:\\Program Files\\Python39\\python.exe",
+  "codePathLocal": "wandb_test.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "524811235328",
+      "used": "361661333504"
+    }
+  },
+  "memory": {
+    "total": "16915582976"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

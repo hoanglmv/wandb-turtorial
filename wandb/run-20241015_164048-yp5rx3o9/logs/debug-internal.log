@@ -1,0 +1,10 @@
+{"time":"2024-10-15T16:40:51.4431434+07:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-15T16:40:51.4431434+07:00","level":"INFO","msg":"created symlink","path":"d:\\lmvh\\wandb-turtorial\\wandb\\run-20241015_164048-yp5rx3o9\\logs\\debug-core.log"}
+{"time":"2024-10-15T16:40:51.4437034+07:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-15T16:40:51.459756+07:00","level":"INFO","msg":"created new stream","id":"yp5rx3o9"}
+{"time":"2024-10-15T16:40:51.459756+07:00","level":"INFO","msg":"stream: started","id":"yp5rx3o9"}
+{"time":"2024-10-15T16:40:51.459756+07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"yp5rx3o9"}}
+{"time":"2024-10-15T16:40:51.459756+07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"yp5rx3o9"}}
+{"time":"2024-10-15T16:40:51.459756+07:00","level":"INFO","msg":"sender: started","stream_id":{"value":"yp5rx3o9"}}
+{"time":"2024-10-15T16:40:52.0362144+07:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-15T16:40:52.037244+07:00","level":"INFO","msg":"Starting system monitor"}

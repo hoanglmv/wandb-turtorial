@@ -1,0 +1,39 @@
+2024-10-15 10:07:02,273 INFO    MainThread:18300 [wandb_setup.py:_flush():77] Current SDK version is 0.18.1
+2024-10-15 10:07:02,273 INFO    MainThread:18300 [wandb_setup.py:_flush():77] Configure stats pid to 18300
+2024-10-15 10:07:02,273 INFO    MainThread:18300 [wandb_setup.py:_flush():77] Loading settings from C:\Users\firek\.config\wandb\settings
+2024-10-15 10:07:02,273 INFO    MainThread:18300 [wandb_setup.py:_flush():77] Loading settings from d:\lmvh\wandb-turtorial\wandb\settings
+2024-10-15 10:07:02,274 INFO    MainThread:18300 [wandb_setup.py:_flush():77] Loading settings from environment variables: {}
+2024-10-15 10:07:02,274 INFO    MainThread:18300 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-15 10:07:02,274 INFO    MainThread:18300 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-10-15 10:07:02,274 INFO    MainThread:18300 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-10-15 10:07:02,274 INFO    MainThread:18300 [wandb_init.py:_log_setup():532] Logging user logs to d:\lmvh\wandb-turtorial\wandb\run-20241015_100702-dyipsna3\logs\debug.log
+2024-10-15 10:07:02,275 INFO    MainThread:18300 [wandb_init.py:_log_setup():533] Logging internal logs to d:\lmvh\wandb-turtorial\wandb\run-20241015_100702-dyipsna3\logs\debug-internal.log
+2024-10-15 10:07:02,275 INFO    MainThread:18300 [wandb_init.py:_jupyter_setup():478] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000026F3A8B05E0>
+2024-10-15 10:07:02,276 INFO    MainThread:18300 [wandb_init.py:init():616] calling init triggers
+2024-10-15 10:07:02,276 INFO    MainThread:18300 [wandb_init.py:init():623] wandb.init called with sweep_config: {}
+config: {'epochs': 5, 'classes': 10, 'kernels': [16, 32], 'batch_size': 128, 'learning_rate': 0.005, 'dataset': 'MNIST', 'architecture': 'CNN'}
+2024-10-15 10:07:02,276 INFO    MainThread:18300 [wandb_init.py:init():666] starting backend
+2024-10-15 10:07:02,276 INFO    MainThread:18300 [wandb_init.py:init():670] setting up manager
+2024-10-15 10:07:02,283 INFO    MainThread:18300 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-10-15 10:07:02,288 INFO    MainThread:18300 [wandb_init.py:init():678] backend started and connected
+2024-10-15 10:07:02,307 INFO    MainThread:18300 [wandb_run.py:_label_probe_notebook():1340] probe notebook
+2024-10-15 10:07:02,308 INFO    MainThread:18300 [wandb_run.py:_label_probe_notebook():1350] Unable to probe notebook: 'charmap' codec can't decode byte 0x8f in position 3545: character maps to <undefined>
+2024-10-15 10:07:02,308 INFO    MainThread:18300 [wandb_init.py:init():773] updated telemetry
+2024-10-15 10:07:02,314 INFO    MainThread:18300 [wandb_init.py:init():806] communicating run to backend with 90.0 second timeout
+2024-10-15 10:07:02,869 INFO    MainThread:18300 [wandb_init.py:init():857] starting run threads in backend
+2024-10-15 10:07:03,537 INFO    MainThread:18300 [wandb_run.py:_console_start():2459] atexit reg
+2024-10-15 10:07:03,537 INFO    MainThread:18300 [wandb_run.py:_redirect():2307] redirect: wrap_raw
+2024-10-15 10:07:03,538 INFO    MainThread:18300 [wandb_run.py:_redirect():2372] Wrapping output streams.
+2024-10-15 10:07:03,538 INFO    MainThread:18300 [wandb_run.py:_redirect():2397] Redirects installed.
+2024-10-15 10:07:03,542 INFO    MainThread:18300 [wandb_init.py:init():900] run started, returning control to user process
+2024-10-15 10:07:16,692 INFO    MainThread:18300 [wandb_watch.py:watch():51] Watching
+2024-10-15 10:08:46,928 INFO    MainThread:18300 [wandb_run.py:_finish():2158] finishing run fire-kidboy1505-vietnam-national-university-hanoi/pytorch-demo/dyipsna3
+2024-10-15 10:08:46,931 INFO    MainThread:18300 [jupyter.py:save_history():459] not saving jupyter history
+2024-10-15 10:08:46,931 INFO    MainThread:18300 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-15 10:08:46,931 INFO    MainThread:18300 [wandb_init.py:_jupyter_teardown():460] cleaning up jupyter logic
+2024-10-15 10:08:46,931 INFO    MainThread:18300 [wandb_run.py:_atexit_cleanup():2422] got exitcode: 1
+2024-10-15 10:08:46,931 INFO    MainThread:18300 [wandb_run.py:_restore():2404] restore
+2024-10-15 10:08:46,932 INFO    MainThread:18300 [wandb_run.py:_restore():2410] restore done
+2024-10-15 10:08:50,227 INFO    MainThread:18300 [wandb_run.py:_footer_history_summary_info():4037] rendering history
+2024-10-15 10:08:50,228 INFO    MainThread:18300 [wandb_run.py:_footer_history_summary_info():4069] rendering summary
+2024-10-15 10:08:50,245 INFO    MainThread:18300 [wandb_run.py:_footer_sync_info():3996] logging synced files

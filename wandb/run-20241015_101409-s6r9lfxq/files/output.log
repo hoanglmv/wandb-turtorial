@@ -1,0 +1,56 @@
+ConvNet(
+  (layer1): Sequential(
+    (0): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (layer2): Sequential(
+    (0): Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (fc): Linear(in_features=1568, out_features=10, bias=True)
+)
+Loss after 03072 examples: 0.299
+Loss after 06272 examples: 0.278
+Loss after 09472 examples: 0.057
+Loss after 12640 examples: 0.118
+Loss after 15840 examples: 0.087
+Loss after 19040 examples: 0.053
+Loss after 22240 examples: 0.053
+Loss after 25408 examples: 0.115
+Loss after 28608 examples: 0.058
+Loss after 31808 examples: 0.041
+Loss after 35008 examples: 0.047
+Loss after 38176 examples: 0.018
+Loss after 41376 examples: 0.027
+Loss after 44576 examples: 0.019
+Loss after 47776 examples: 0.018
+Loss after 50944 examples: 0.027
+Loss after 54144 examples: 0.024
+Loss after 57344 examples: 0.027
+Accuracy of the model on the 2000 test images: 98.200000%
+============== Diagnostic Run torch.onnx.export version 2.0.1+cpu ==============
+verbose: False, log level: Level.ERROR
+======================= 0 NONE 0 NOTE 0 WARNING 0 ERROR ========================
+Traceback (most recent call last):
+  File "C:\Users\firek\AppData\Roaming\Python\Python39\site-packages\torch\onnx\_internal\onnx_proto_utils.py", line 219, in _add_onnxscript_fn
+    import onnx
+  File "C:\Users\firek\AppData\Roaming\Python\Python39\site-packages\onnx\__init__.py", line 77, in <module>
+    from onnx.onnx_cpp2py_export import ONNX_ML
+ImportError: DLL load failed while importing onnx_cpp2py_export: A dynamic link library (DLL) initialization routine failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\firek\AppData\Local\Temp\ipykernel_18300\615404671.py", line 16, in model_pipeline
+    test(model, test_loader)
+  File "C:\Users\firek\AppData\Local\Temp\ipykernel_18300\3262146820.py", line 20, in test
+    torch.onnx.export(model, images, "model.onnx")
+  File "C:\Users\firek\AppData\Roaming\Python\Python39\site-packages\torch\onnx\utils.py", line 506, in export
+    _export(
+  File "C:\Users\firek\AppData\Roaming\Python\Python39\site-packages\torch\onnx\utils.py", line 1620, in _export
+    proto = onnx_proto_utils._add_onnxscript_fn(
+  File "C:\Users\firek\AppData\Roaming\Python\Python39\site-packages\torch\onnx\_internal\onnx_proto_utils.py", line 221, in _add_onnxscript_fn
+    raise errors.OnnxExporterError("Module onnx is not installed!") from e
+torch.onnx.errors.OnnxExporterError: Module onnx is not installed!
